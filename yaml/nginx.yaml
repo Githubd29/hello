@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image:  kubernet8s/hello
+        image:  kubernet8s/ss
         imagePullPolicy: Always
         ports:
         - containerPort: 80
